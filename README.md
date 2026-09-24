@@ -1,6 +1,6 @@
 # Experience Direction
 
-> **Status: in testing.** Not released yet — see [TESTING.md](TESTING.md) once it lands.
+> **Status: in testing.** Not released yet — see [TESTING.md](TESTING.md).
 
 **Direction before design.** A Claude Code skill that acts as the director of an immersive web experience — not the designer, not the developer. Before anyone picks a font or writes a line of code, it decides what happens to the person who arrives, and hands one checkable document to whoever builds.
 
