@@ -63,6 +63,10 @@ A stage does not start until the previous file exists — a written text that ca
     3 min      <object or event>
     line       opens | continues <piece> | refutes <piece> — <what changed>
 
+## Invariants
+
+Ten invariants hold across every stage file — one main visitor, the basics by the third second, only real material, traceability by ID, one of each, earned reveals, constant input, written refusals, fixing upstream, checkable words. Read `references/invariants.md` before stage 1; every stage's exit criteria apply them.
+
 ## Hard rules (always in force)
 
 1. **A trick is not a concept.** "Shader deformation", "parallax on scroll", "planets in space" are tricks. A concept tells you what to do with the WHOLE thing: navigation, headings, cursor, transitions.
