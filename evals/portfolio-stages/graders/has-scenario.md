@@ -1,4 +1,4 @@
 ---
 type: file_exists
-path: "design/space.md"
+path: "**/scenario.md"
 ---

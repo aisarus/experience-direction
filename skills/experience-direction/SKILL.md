@@ -29,11 +29,25 @@ If the material is missing, **ask for it and wait.** Do not invent facts about a
 
 **Full mode** — anything larger than one screen, or anything the user calls immersive. Each stage writes its own file into `design/`, and each file is a gate.
 
-**Light mode** — a single-screen piece, a quick experiment, or when the user wants speed. Write one `design/brief.md` answering, in a few lines each: who comes and why, what they take away, the concept in one sentence, the first frame, the space type and placement law, light + palette + type, the punch, and the 3 s / 30 s / 3 min lines. Then hand off. Light mode shortens the writing, not the thinking.
+**Light mode** — a single-screen piece, a quick experiment, or when the user wants speed. Write one `design/brief.md` with these sections, a few lines each, using the same IDs:
+
+    # <name>
+    ## Material        M1…Mn, approved or not
+    ## Visitors        V1 (MAIN) and what they know by 3 s
+    ## Concept         one sentence + navigation / headings / cursor / transitions; one rejected concept and why
+    ## Punch           P, with the step where it happens
+    ## Course          K0 (0 s), K1 (3 s), the moment, Kend
+    ## Shots           the first shot and the moment, with eye point and the action that leaves each
+    ## Space           type, edges, placement law, a small diagram
+    ## Look            one non-web source + principle, light, 4–6 hex values with roles, type, material
+    ## Three minutes   3 s / 30 s / 3 min
+    ## Not included
+
+Then run stage 5 as usual. Light mode shortens the writing, not the thinking: the invariants and the exit criteria still apply.
 
 ## Routing
 
-Check which files already exist: run `python3 ${CLAUDE_SKILL_DIR}/scripts/check_gates.py <project dir>` (this skill's `scripts/` folder); if Python is unavailable, look yourself. Resume at the first missing stage. Read only the reference for the stage you are in.
+Check which files already exist: run `python3 ${CLAUDE_SKILL_DIR}/scripts/check_gates.py <project dir>` (this skill's `scripts/` folder); if Python is unavailable, look yourself. Resume at the first missing stage. Read `references/invariants.md` once, then only the reference for the stage you are in. Every stage reference has the same shape: inputs, a numbered procedure, the exact output format, exit criteria, typical failures — follow the procedure step by step and do not leave a stage until its exit criteria hold.
 
 | Stage | Reads | Writes (gate) | Reference |
 |---|---|---|---|
@@ -44,7 +58,7 @@ Check which files already exist: run `python3 ${CLAUDE_SKILL_DIR}/scripts/check_
 | 4. Look | `space.md` | `look.md` | `references/4-look.md` |
 | 5. Handoff | all four (or `brief.md`) | `DIRECTION.md` | `references/5-handoff.md` |
 
-A stage does not start until the previous file exists — a written text that can be shown and argued with, not "I thought about it". If a later stage breaks an earlier decision, go back and fix that file.
+A stage does not start until the previous file exists and passes its exit criteria — a written text that can be shown and argued with, not "I thought about it". If a later stage breaks an earlier decision, go back and fix that file (invariant I9).
 
 ## Checks
 

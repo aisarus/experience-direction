@@ -1,105 +1,141 @@
 # Stage 3. Space (art direction)
 
-The third and central stage. The structure of the space and how objects are placed in it: scale, neighbours, distances, the edges of the world.
+The structure of the world the shots happen in, and the law by which things stand where they stand: type of space, edges, levels of scale, distances, where the visitor is.
 
-## Gate
+Not decoration, not colour, not type — that is stage 4. A mistake here is not fixed by colour or animation: a meaningless space made beautiful is beautifully meaningless.
 
-**Requires `storyboard.md`. Until `space.md` is written, stage 4 does not begin.**
+## Inputs
 
-The file must contain: the type of space, its edges, the levels of scale, the placement rule, and a diagram — in text or symbols. The diagram is mandatory: a space that cannot be drawn has not been invented yet.
+- `storyboard.md`: point of view, shots `S1…Sn`, *shown and hidden*.
+- `scenario.md`: the material items that become objects in the space.
 
-## What this stage decides
+## Procedure
 
-**The structure of the space and how objects are placed in it.**
+### Step 1. Choose the type of space → `## Type`
 
-Not decoration, not colour, not type — that is stage 4. Here you decide what stands where and why exactly there. A mistake here is not fixed by colour or animation: if the space is meaningless, a beautiful space will be beautifully meaningless.
+Choose one and hold it. Mixing types reads as the absence of a concept (I5).
 
-## 1. Type of space
+    strip       everything in one line, forward and back. Honest, and dull unless the material is a line
+    room        one place, objects around you, you go nowhere
+    map         everything visible at once; you move across the surveyable
+    corridor    you walk forward, don't look back, the order is fixed
+    descent     depth instead of length: the further, the lower and quieter
+    world       larger than the screen; it has an edge and emptiness
+    mechanism   you don't walk; you operate it, and it answers
 
-Pick one and hold it. Mixing types reads as the absence of a concept.
+Write the type and which shots and which part of the concept it serves.
 
-    strip        everything in one line, forward and back. Honest and dull.
-    room         one place, objects around you, you go nowhere
-    map          everything visible at once; you move across the surveyable
-    corridor     you walk forward, don't look back, the order is fixed
-    descent      depth instead of length: the further, the lower and quieter
-    world        space larger than the screen; it has an edge and emptiness
-    mechanism    you don't walk, you operate it, and it answers
+    type   strip — the material is literally a line (M1, tram 17), and the concept rides it.
+           The usual dullness of a strip is answered by the stops: each one opens downward (step 3).
 
-An application, rather than a page, usually needs a **world** or a **mechanism** — otherwise there is nowhere to put the scale.
+An application rather than a page usually needs a **world** or a **mechanism**, otherwise there is nowhere to put the scale.
 
-## 2. Edges
+### Step 2. Decide the edges → `## Edges`
 
-What happens at the edge? "Nothing" is a bad answer.
+What happens at each edge. "Nothing" is not an answer: a world without an edge reads as a set.
 
-    wall         you can't go further, and it's visible in advance
-    return       the edge wraps back; the world is closed
-    void         you can walk into nothing, and it means something
-    horizon      the edge is unreachable but always visible
+    wall      you can't go further, and it's visible in advance
+    return    the edge wraps back; the world is closed
+    void      you can walk into nothing, and it means something
+    horizon   the edge is unreachable but always visible
 
-**A world without an edge reads as a set.** The edge is what makes the space real, even if the person never reaches it.
+    left edge    horizon — the line continues before 2019 into fog: the stops before her work (never opens, felt)
+    right edge   wall — the terminus: her name and the contact. The line ends where you can reach her.
 
-## 3. Levels of scale
+### Step 3. Define the levels of scale → `## Levels`
 
-How many times the person can "zoom in", and what changes at each level.
+How many times the visitor can "zoom in", and what changes at each level. For every level write: what is visible, what has disappeared, what has appeared, and **what there is to do** there.
 
-    example:   galaxy → system → planet → surface → object
+    1  the line      visible: four stops, years, the name     to do: choose a stop
+    2  a stop        disappeared: the other stops              to do: stay still and listen
+                     appeared: the piece's own frame
+    3  a room        only at Quiet Rooms (six rooms, M5)        to do: step between rooms
+                     appeared: one room's sound and photo
 
-At each level answer: **what is visible, what has disappeared, what has appeared.** A level that is just "the same, but bigger" is not needed — remove it.
+A level whose only activity is falling deeper is not a level but a transition animation — remove it.
 
-Rule: **every level has its own thing to do.** If the only thing to do on a level is to fall deeper, it is not a level; it is a transition animation.
+### Step 4. State the placement law → `## Placement law`
 
-## 4. Placement rule
+The most important and most skipped decision: **by what law do objects stand where they stand?** Choose one.
 
-The most important and most skipped. **By what law do objects stand where they stand?**
+    by time       older further, newer closer
+    by kinship    similar things together, foreign things apart
+    by weight     large things hold the centre, small ones the periphery
+    by history    in the order in which it happened to the author
+    by meaning    what the visitor must meet first stands at the entrance
 
-    by time        older further, newer closer
-    by kinship     similar things together, foreign things apart
-    by weight      large things hold the centre, small ones the periphery
-    by history     the order in which it happened to the author
-    by meaning     what the person must meet first stands at the entrance
+    law    by time: stops in the order of the years, 2019 → 2024, left to right, toward the terminus
 
-The law must be **one**, and it must read without a caption. If placement is random, the person feels it, even without being able to name it.
+The law must read without a caption. Test it: take any two objects and ask "why is this one here and that one there?". If the answer is "that's how it landed", there is no law.
 
-Test: take two objects and ask "why is this one here and that one there". If the answer is "that's how it landed", there is no law.
+### Step 5. Use distance → `## Distances`
 
-## 5. Distance as meaning
+In a space, distance is a statement: far is "unimportant" or "hard to reach", near is "connected".
 
-In a space, distance is a statement. Far means "unimportant" or "hard to reach". Near means "connected".
+    gaps between stops are proportional to the years between works:
+      Tram 17 ──2 yr── Low Tide ─1 yr─ Quiet Rooms ──2 yr── Salt ─── terminus
 
-- **The emptiness between objects is also an object.** It sets rhythm and scale.
+- **The emptiness between objects is an object.** It sets rhythm and scale.
 - **Equal intervals kill hierarchy.** If everything is equally spaced, nothing is the main thing.
-- **A cluster reads as one thing.** Want to show obsession? Put twenty objects right next to each other; it will say more than any caption.
+- **A cluster reads as one thing.** Twenty objects side by side say "obsession" better than a caption.
 
-## 6. Where the person stands
+### Step 6. Place the visitor → `## Where the visitor stands`
 
-At every moment: are they inside or outside? Do they move, or does the world move? Do they see themselves?
+At each level: inside or outside? Do they move, or does the world move? Do they see themselves? The answer is the same at every level, or its change is a marked shot (I7).
 
-**The answer must be the same at every level** — or its change must be an event the person notices and understands.
+    1  outside, beside the line; the line moves past them
+    2  on the platform (the POV change in S4); the world is still, only sound moves
+    3  inside a room; the same as 2
 
-## Diagram
+### Step 7. Draw the diagram → `## Diagram`
 
-Draw it. Even in symbols in a text file:
+Mandatory. A space that cannot be drawn has not been invented yet, and code will not save it. Mark the zones `Z1…Zn`, and point each to the shots that happen there (I4).
 
-    ┌─ PROMPT ──────┐        ┌─ LANGUAGE ┐
-    │ ●●●●●●        │        │  ● ●      │
-    │ ●●●●●●●●●●●●  │        │ ● ● ●     │
-    └───────────────┘        └───────────┘
-              ╲                  ╱
-               ┌─ AGENTS ──────┐
-               │   ◉  ● ●      │      ◉ — the heaviest
-               └───────────────┘
+    fog ····●───────────●─────●───────────●──────── ▣ Mira Kovač — sound
+         (horizon)  Z1 Tram 17  Z2 Low Tide  Z3 Quiet   Z4 Salt     Z5 terminus: contact
+                   2019        2021  Rooms 2022        2024      (wall)
+                                │         ┌─┬─┬─┐
+                                ▼         │ │ │ │  level 3: six rooms (Z3a–Z3f)
+                            sea band      └─┴─┴─┘
+    Z1–Z4 ← S2–S6    Z5 ← S7
 
-If the diagram won't draw, the space has not been invented, and code will not save it.
+### Step 8. Record the rejected → `## Rejected`
 
-## Don't
+    map (all four works as islands) — no placement law the visitor could read; lost the tram, the author's own structure
+    equal spacing between stops — killed the reading of time
 
-**Don't reach for a grid by default.** A grid is the law "everyone is equal". Use it only when that is the law you chose — and say so in the placement rule.
+## Output: `space.md`
 
-**Don't make the space bigger than the content.** An empty world reads as unfinished, not spacious. Emptiness must be a decision, not a leftover.
+    # <name>
+    ## Type                   one type, and why
+    ## Edges                  each edge and what happens there
+    ## Levels                 1…n: visible / disappeared / appeared / to do
+    ## Placement law          one law, and the two-object test
+    ## Distances              what the gaps say
+    ## Where the visitor stands
+    ## Diagram                with zones Z1…Zn pointing to shots
+    ## Rejected
 
-**Don't hide the structure behind the camera.** If the person can't build a map in their head, they can't come back — and so they won't explore.
+## Exit criteria
+
+- [ ] One type of space (I5)
+- [ ] Every edge has an answer that is not "nothing"
+- [ ] Every level has its own thing to do
+- [ ] One placement law that passes the two-object test without a caption (I5)
+- [ ] Intervals are not all equal, or equality is the stated law
+- [ ] The visitor's position is the same at every level, or its change is a marked shot (I7)
+- [ ] A diagram exists; every zone points to shots and every shot happens in a zone (I4)
+- [ ] *Rejected* is not empty (I8)
+
+## Typical failures
+
+| What you see | What went wrong | Fix |
+|---|---|---|
+| Objects on a grid | "Everyone is equal" by default | A grid is a law; use it only when equality is the point, and say so |
+| An empty world with a few objects | The space is bigger than the content | Shrink it; emptiness must be a decision, not a leftover |
+| The visitor gets lost and doesn't come back | The structure is hidden behind the camera | Make the whole visible at least once (usually S1) |
+| "The same, but bigger" at the next level | A transition pretending to be a level | Remove the level, or give it its own thing to do |
 
 ## Next
 
-Stage 4, look — what it looks like: light, colour, material, type.
+Stage 4, look: light, colour, material and type for this space.

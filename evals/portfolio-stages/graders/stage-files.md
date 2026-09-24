@@ -6,13 +6,11 @@ focus:
   path: DIRECTION.md
 ---
 
-Inspect the files the agent wrote. PASS only if ALL hold:
-- design/scenario.md, design/storyboard.md, design/space.md and design/look.md all exist and are substantive (not stubs).
-- scenario.md starts with a name that names the subject (passes "I made ___"; not an abstract word like "Resonance", "Echoframe", "Sonic Void").
-- scenario.md proposes three concepts, picks one, and the chosen concept says something about navigation/headings/cursor/transitions (not just a visual trick), and lists what is NOT included.
-- scenario.md has a punch sentence containing an event or object, not an evaluation.
-- space.md names one space type, the edges, one placement rule, and contains a text/ASCII diagram.
-- look.md names light before palette, gives 4–6 exact colour values with roles, typefaces by role (checking script coverage is a plus), a material, and at least one named source that is NOT a website (painting, theatre, film, architecture, print, scientific illustration...).
-- No facts about Mira were invented beyond the material given (e.g. no invented awards, clients, education, quotes).
-- DIRECTION.md exists and contains: who the main visitor is and what they know by 3 seconds (whose work this is and what is here), the concept, the punch, the 0 s / 3 s / 30 s / 3 min course, and acceptance checks a builder can verify on the built page.
-- No HTML/JS/CSS code was written.
+This is the handoff document of a direction pipeline for Tomás Reyes's lighting-design portfolio. PASS only if ALL hold:
+- It names one main visitor (e.g. a theatre director or producer hiring) and states what they know by the third second — whose work this is and what is here (his name and his works). A first screen that is only a mood, an instruction ("stand still", "scroll to begin") or a puzzle FAILS this.
+- It has one concept that says what happens to navigation, headings, cursor/touch and transitions, grown from Tomás's real material (the carried lamp, light following footsteps, the window clock, theatre light) — not a generic effect.
+- It has one punch sentence with an event or object, not an evaluation.
+- It has shots (S1…), an input map with touch/keyboard equivalents, a space with a placement law and a diagram, and a look with light, 4–6 hex colours with roles, and at least one named source that is not a website.
+- It has acceptance checks (A1…) that a builder can verify on the page by yes/no, including a small-window check of the first three seconds.
+- It lists real material and placeholders, and invents nothing about Tomás beyond the brief (no awards, clients, education, quotes, extra projects).
+- It avoids taste words as decisions ("premium", "atmospheric", "elegant" without a concrete decision).

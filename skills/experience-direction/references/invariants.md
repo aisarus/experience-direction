@@ -84,5 +84,5 @@ Every decision is written so that someone could look at the built page and say w
     X1…Xn   not included                            every file
     S1…Sn   shots                                   storyboard.md
     Z1…Zn   zones / objects in the space            space.md
-    L1…Ln   look decisions (light, colour, type…)   look.md
+    D1…Dn   look decisions (light, colour, type…)   look.md
     A1…An   acceptance checks                       DIRECTION.md
