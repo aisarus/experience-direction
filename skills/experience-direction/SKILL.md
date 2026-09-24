@@ -1,6 +1,6 @@
 ---
 name: experience-direction
-description: Use FIRST — before asking design questions, choosing a look or writing any code — whenever someone wants a web experience that should feel like a place, a story or an artwork rather than a template - an immersive or interactive portfolio, personal site, interactive story, art piece, experimental or showcase site, WebGL / Three.js / canvas piece; "make it memorable", "award-level", "not generic", "like Bruno Simon / Lusion". Acts as the director, not the designer - collects real material, then writes a direction document (who arrives and why, concept, punch, the first 3 seconds / 30 seconds / 3 minutes, space and placement law, light and non-web sources) and hands it to whoever builds - the frontend-design skill, another agent, a human. Also use it to decide a request is a routine page that needs no direction (café or shop landing, dashboard, form, admin, docs, product page) and say so without inventing facts.
+description: Use FIRST — before asking design questions, choosing a look or writing any code — whenever someone wants a web experience whose point is the experience itself - an immersive or interactive portfolio or personal site, an interactive story, an art piece, an experimental WebGL / Three.js / canvas piece, a site that should feel like a place or a story ("like Bruno Simon / Lusion"). Acts as the director, not the designer - collects real material, then writes a direction document (who arrives and why, concept, punch, the first 3 seconds / 30 seconds / 3 minutes, space and placement law, light and non-web sources) and hands it to whoever builds - the frontend-design skill, another agent, a human. Decides by what the thing is, not by adjectives - a café, shop, product, tool, library or app landing page, dashboard, form, admin or docs page stays a routine page even when asked to be "memorable" or "not generic"; for those it says so in one line, steps aside for frontend-design, and invents no facts.
 ---
 
 # Experience Direction
@@ -16,6 +16,8 @@ Jumping from brief to code is the most common and most expensive mistake: it pro
 Decide before anything else. Direction is for work where the experience is the product: portfolios, personal sites, interactive stories, art pieces, experimental or showcase sites.
 
 A routine page needs no director — a café or shop landing, a product or tool page, a dashboard, a form, settings, an admin tool, documentation, a standard marketing page. Its job is to be clear and fast. **Do not run the stages.** Say in one line that it is a routine page, hand it to the `frontend-design` skill (or just build it clearly), and stop. Hard rule 8 still applies: only the facts the user gave; anything missing becomes a marked `[PLACEHOLDER]`.
+
+**Decide by what the thing is, not by the adjectives.** "Memorable", "not generic", "award-level", "stand out" on a café, a product, a tool, a library or an app page ask for a *distinctive routine page* — that is frontend-design's job, not a director's. The exception is when the user explicitly asks for the page itself to be an experience, a world or an art piece ("make the kilo page a piece you walk through").
 
 If it is unclear, ask once: "Should this feel like a place or a story, or should it be a clear, fast page?"
 
