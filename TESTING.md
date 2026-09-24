@@ -11,9 +11,10 @@ Each case runs **with** the plugin and **without** it (a baseline arm with the s
 | `portfolio-stages` | Real material → four stage files and a `DIRECTION.md` with visitor, concept, punch, shots, space, look, acceptance checks; nothing invented; no code | **2/2** | 0/2 |
 | `missing-material-asks` | "Immersive portfolio" with no material → asks for it, writes no code, invents nothing | **3/3** | 2/3 |
 | `product-page-routed` | A showcase page for a small tool, asked to be "memorable" → *not* directed; a clear page | **3/3** | 2/3 |
-| `routine-cafe-handoff` | A café landing page → *not* directed | see below | |
+| `routine-cafe-handoff` | A café landing page → *not* directed | **3/3** | 3/3 |
+| ↳ same case, no invented facts | Only the given name, hours and address; nothing like "roasted on site" | **3/3** | 1/3 |
 
-The café case is being re-run after its grader was split into two questions: *did the skill stay out of the way* (the skill's job) and *did the builder invent facts* (the builder's job — it happens with and without the plugin, e.g. "roasted on site").
+The café case has two graders: *did the skill stay out of the way* and *did the page invent facts*. Without the plugin, two of three café pages invented facts; with it, none did.
 
 Run it yourself:
 
