@@ -1,0 +1,24 @@
+{
+  "name": "experience-direction",
+  "displayName": "Experience Direction",
+  "version": "0.4.0",
+  "description": "A director for immersive web experiences: before anyone designs or codes, it writes the direction — who arrives and why, the concept, the punch, the first 3 seconds / 30 seconds / 3 minutes, the space and the light — and hands one checkable document to the builder.",
+  "author": {
+    "name": "aisarus",
+    "url": "https://github.com/aisarus"
+  },
+  "license": "MIT",
+  "keywords": [
+    "direction",
+    "creative-direction",
+    "immersive",
+    "portfolio",
+    "storytelling",
+    "interactive",
+    "webgl",
+    "three.js",
+    "design-brief"
+  ],
+  "homepage": "https://github.com/aisarus/experience-direction",
+  "repository": "https://github.com/aisarus/experience-direction"
+}

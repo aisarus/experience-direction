@@ -1,0 +1,18 @@
+{
+  "$schema": "https://code.claude.com/schema/marketplace.json",
+  "name": "experience-direction",
+  "description": "Experience Direction — direction before design for immersive web experiences.",
+  "owner": { "name": "aisarus", "url": "https://github.com/aisarus" },
+  "plugins": [
+    {
+      "name": "experience-direction",
+      "displayName": "Experience Direction",
+      "source": "./",
+      "version": "0.4.0",
+      "description": "Writes the direction for an immersive web experience — concept, punch, first 3 s / 30 s / 3 min, space, light — and hands one checkable document to the builder (frontend-design, another tool, or a human).",
+      "author": { "name": "aisarus" },
+      "license": "MIT",
+      "category": "design"
+    }
+  ]
+}
